@@ -2,7 +2,10 @@ function [ list_keyframes, list_videos, list_pats ] = vsd_load_keyframes( kf_nam
 %LOAD_SEGMENTS Summary of this function goes here
 %   Detailed explanation goes here
     
-	videolst = sprintf('/net/sfv215/export/raid6/ledduy/mediaeval-2013/metadata/%s/%s.lst', kf_name, szPat);
+	metadata_dir = '/net/per610a/export/das11f/ledduy/mediaeval-vsd-2013/metadata';
+	
+	%videolst = sprintf('/net/sfv215/export/raid6/ledduy/mediaeval-2013/metadata/%s/%s.lst', kf_name, szPat);
+	videolst = sprintf('%s/%s/%s.lst', metadata_dir, kf_name, szPat);
 	
     fh = fopen(videolst);
     infos = textscan(fh, '%s %*q %s %*q %s');
@@ -23,7 +26,7 @@ function [ list_keyframes, list_videos, list_pats ] = vsd_load_keyframes( kf_nam
     for ii = 1:length(videos),
         video = videos{ii};
         pat = pats{ii};
-        mfile = sprintf('/net/sfv215/export/raid6/ledduy/mediaeval-2013/metadata/%s/%s/%s.prg', kf_name, pat, video);
+        mfile = sprintf('%s/%s/%s/%s.prg', metadata_dir, kf_name, pat, video);
        
         fh = fopen(mfile);
 		
