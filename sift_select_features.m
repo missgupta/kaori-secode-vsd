@@ -4,15 +4,23 @@ function sift_select_features(sift_algo, param )
 
 	set_env;
 	
+	configs = set_global_config();
+	logfile = sprintf('%s/%s.log', configs.logdir, mfilename);
+	msg = sprintf('Start running %s(%s, %s)', mfilename, sift_algo, param);
+	logmsg(logfile, msg);
+	tic;
+	
+	
     % parameters
+	proj_dir = '/net/per610a/export/das11f/plsang/vsd2013';
     max_features = 1000000;
-    kf_sampling_rate = 0.2;
+    kf_sampling_rate = 0.2; %% ~130K Keyframes
 	
 	% tong so keyfraem cua devel2013-new la 663.092 :D
 	% tong so shot là 32.683 (trong đó 2523 là pos, 30160 là neg)
 	% test set thì có 273.377 kf / 11245 sho
 	
-	output_file = sprintf('/net/per610a/export/das11f/plsang/vsd2013/feature/bow.codebook.devel/%s.%s.sift/data/selected_feats_%d.mat', sift_algo, num2str(param), max_features);
+	output_file = sprintf('%s/feature/bow.codebook.devel/%s.%s.sift/data/selected_feats_%d.mat', proj_dir, sift_algo, num2str(param), max_features);
 	if exist(output_file),
 		fprintf('File [%s] already exist. skipped!\n', output_file);
 		return;
@@ -51,16 +59,27 @@ function sift_select_features(sift_algo, param )
         img_path = fullfile(kf_dir, pat, video_id, [keyframe_id, '.jpg']);
 	
 		if ~exist(img_path, 'file'),
-			warninng('File does not exist [%s] \n', img_path);
+			msg = sprintf('File does not exist [%s] \n', img_path);
+			warning(msg);
+			logmsg(logfile, msg);
 			continue;
 		end
      
 		fprintf(' ***** [%d/%d] ******* <%s> ...\n', ii, length(selected_keyframes), keyframe_id);
 		
 		[frames, descrs] = sift_extract_features( img_path, sift_algo, param );
-            
+        
+		if any(isnan(descrs), 1),
+			% remove NaN columns
+			msg = sprintf('Feature file contains NaN [%s] \n', img_path);
+			warning(msg);
+			logmsg(logfile, msg);
+			
+			descrs(:, any(isnan(descrs), 1)) = [];
+		end
+		
 		% if more than 50% of points are empty --> possibley empty image
-		if sum(all(descrs == 0, 1)) > 0.5*size(descrs, 2),
+		if sum(all(descrs == 0, 1)) >= 0.5*size(descrs, 2),
 			%warning('Maybe blank image...[%s]. Skipped!\n', keyframe_id);
 			continue;
 		end
@@ -88,6 +107,11 @@ function sift_select_features(sift_algo, param )
 	
 	fprintf('Saving selected features to [%s]...\n', output_file);
     save(output_file, 'feats', '-v7.3');
+	
+	elapsed = toc;
+	elapsed_str = datestr(datenum(0,0,0,0,0,elapsed),'HH:MM:SS');
+	msg = sprintf('Finish running %s(%s, %s). Elapsed time: %s', mfilename, sift_algo, param, elapsed_str);
+	logmsg(logfile, msg);
 	
 end
 
