@@ -6,7 +6,7 @@ function sift_select_features(sift_algo, param )
 	
 	configs = set_global_config();
 	logfile = sprintf('%s/%s.log', configs.logdir, mfilename);
-	msg = sprintf('Start running %s(%s, %s)', mfilename, sift_algo, param);
+	msg = sprintf('Start running %s(%s, %s)', mfilename, sift_algo, num2str(param));
 	logmsg(logfile, msg);
 	tic;
 	
@@ -110,7 +110,7 @@ function sift_select_features(sift_algo, param )
 	
 	elapsed = toc;
 	elapsed_str = datestr(datenum(0,0,0,0,0,elapsed),'HH:MM:SS');
-	msg = sprintf('Finish running %s(%s, %s). Elapsed time: %s', mfilename, sift_algo, param, elapsed_str);
+	msg = sprintf('Finish running %s(%s, %s). Elapsed time: %s', mfilename, sift_algo, num2str(param), elapsed_str);
 	logmsg(logfile, msg);
 	
 end

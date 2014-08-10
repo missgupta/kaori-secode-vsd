@@ -2,6 +2,9 @@
 % not working
 % system('export LD_LIBRARY_PATH=/net/per900b/raid0/ledduy/usr.local/lib:/net/per900a/raid0/plsang/usr.local/lib:/usr/local/lib:$LD_LIBRARY_PATH');
 
+% common function
+addpath('/net/per610a/export/das11f/plsang/codes/common');
+
 % vlfeat
 run('/net/per900a/raid0/plsang/tools/vlfeat-0.9.16/toolbox/vl_setup');
 
