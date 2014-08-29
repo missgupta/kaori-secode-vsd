@@ -40,6 +40,15 @@ function codebook = do_clustering_gmm(proj_dir, feat_pat, dimred, num_features, 
 	
 	feat_dim = size(feats, 1);
 	
+	
+	%% Bug: feats contains NaN,
+	%% Todo: remove NaN features when selecting features
+	fprintf('Removing NaN features...\n');
+	before_nan = size(feats, 2);
+	feats = feats(:, ~any(isnan(feats), 1));
+	after_nan = size(feats, 2);
+	fprintf('Finished <%d> NaN found...\n', before_nan - after_nan );
+	
 	f_low_proj_matrix = sprintf('%s/feature/bow.codebook.devel/%s/data/lowproj.%d.%d.mat', ...
 		proj_dir, feat_pat, dimred, feat_dim);
 	
