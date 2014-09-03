@@ -1,117 +1,120 @@
-function [ output_args ] = densetraj_encode_sge( descriptor, shot_ann, szPat, start_seg, end_seg )
+function [ output_args ] = densetraj_encode_sge( proj_name, shot_ann, start_seg, end_seg )
 %ENCODE Summary of this function goes here
 %   Detailed explanation goes here
 %% kf_dir_name: name of keyframe folder, e.g. keyframe-60 for segment length of 60s   
    
-    %log start
-    msg = sprintf('Start runing encode (%s, %s, %s, %d, %d)', descriptor, shot_ann, szPat, start_seg, end_seg );
-    log(msg);
-    
+    % encoding method: fisher vector
+	% representation: video-based, (can be extended to segment level)
+	% power normalization, which one is the best? alpha = 0.2? 
+	
     % setting
     set_env;
-    
-    
-    video_dir = '/net/per610a/export/das11f/ledduy/plsang/vsd2013/video-rsz';
-    
+	dimred = 128;
+	root_proj = '/net/per610a/export/das11f/plsang';
 	
-    fea_dir = ['/net/per610a/export/das11f/ledduy/plsang/vsd2013/feature/', shot_ann];
-    if ~exist(fea_dir, 'file'),
-        mkdir(fea_dir);
-    end
-        
-    % encoding type
-    enc_type = 'kcb';
-    codebook_size = 4000;
-    
-	feature_ext = sprintf('densetrajectory.%s.Soft-4000-VL2.vsd2013.devel', descriptor);
+	configs = set_global_config();
+	logfile = sprintf('%s/%s.log', configs.logdir, mfilename);
+	msg = sprintf('Start running %s(%s, %s, %d, %d)', mfilename, proj_name, shot_ann, start_seg, end_seg);
+	logmsg(logfile, msg);
+	change_perm(logfile);
+	tic;
 	
-        
-    output_dir = sprintf('%s/%s.%s/%s', fea_dir, feature_ext, enc_type, szPat) ;
-    if ~exist(output_dir, 'file'),
-        mkdir(output_dir);
+    video_dir = sprintf('%s/%s/video-rsz', root_proj, proj_name);
+	
+	fea_dir = sprintf('%s/%s/feature', root_proj, proj_name);
+	
+	codebook_gmm_size = 256;
+    
+	feature_ext_fc = sprintf('idensetraj.hoghofmbh.cb%d.fc', codebook_gmm_size);
+	if dimred > 0,
+		feature_ext_fc = sprintf('idensetraj.hoghofmbh.cb%d.fc.pca', codebook_gmm_size);
+	end
+
+    output_dir_fc = sprintf('%s/%s/%s', fea_dir, shot_ann, feature_ext_fc);
+	
+    if ~exist(output_dir_fc, 'file'),
+        mkdir(output_dir_fc);
+		change_perm(output_dir_fc);
     end
-    
-    codebook_file = sprintf('/net/per610a/export/das11f/ledduy/plsang/vsd2013/feature/bow.codebook.devel/densetrajectory.%s/data/codebook.%d.mat', descriptor, codebook_size);
-    codebook_ = load(codebook_file, 'codebook');
-    codebook = codebook_.codebook;
-    
-    kdtree = vl_kdtreebuild(codebook);
-    
-    %segments = load_segments('trecvidmed11', szPat, kf_dir_name);
-	[shots, shot_infos, v_infos, v_paths] = vsd_load_shots(shot_ann, szPat);
-    
+	
+	% loading gmm codebook
+	
+	codebook_hoghof_file = sprintf('%s/%s/feature/bow.codebook.devel/idensetraj.hoghof/data/codebook.gmm.%d.%d.mat', root_proj, proj_name, codebook_gmm_size, dimred);
+	low_proj_hoghof_file = sprintf('%s/%s/feature/bow.codebook.devel/idensetraj.hoghof/data/lowproj.%d.%d.mat', root_proj, proj_name, dimred, 204);
+	
+	codebook_mbh_file = sprintf('%s/%s/feature/bow.codebook.devel/idensetraj.mbh/data/codebook.gmm.%d.%d.mat', root_proj, proj_name, codebook_gmm_size, dimred);
+	low_proj_mbh_file = sprintf('%s/%s/feature/bow.codebook.devel/idensetraj.mbh/data/lowproj.%d.%d.mat', root_proj, proj_name, dimred, 192);
+
+	codebook_hoghof_ = load(codebook_hoghof_file, 'codebook');
+    codebook_hoghof = codebook_hoghof_.codebook;
+	
+	codebook_mbh_ = load(codebook_mbh_file, 'codebook');
+    codebook_mbh = codebook_mbh_.codebook;
+	
+	low_proj_hoghof_ = load(low_proj_hoghof_file, 'low_proj');
+	low_proj_hoghof = low_proj_hoghof_.low_proj;
+	
+	low_proj_mbh_ = load(low_proj_mbh_file, 'low_proj');
+	low_proj_mbh = low_proj_mbh_.low_proj;
+	
+	%%%%% Load shot info
+	meta_file = '/net/per610a/export/das11f/plsang/vsd2014/metadata/vsd_infos.mat';
+	fprintf('Loading meta file [%s] ...!!\n', meta_file);
+	load(meta_file, 'vsd_infos');
+	%%%%% Load shot info
+	
     if start_seg < 1,
         start_seg = 1;
     end
     
-    if end_seg > length(shots),
-        end_seg = length(shots);
+    if end_seg > length(vsd_infos.shots),
+        end_seg = length(vsd_infos.shots);
     end
-    
-    %tic
-    pattern='(?<video>VSD\d+_\d+)_shot\d+_\d+';
-	
+ 
     for ii = start_seg:end_seg,
-
-        shot_id = shots{ii};
+	
+		shot_id = vsd_infos.shots{ii};
+		splits = regexp(shot_id, '\.', 'split');
+		video_id = splits{1};
+		splits = regexp(video_id, '_', 'split');
+		pat_id = splits{2};
 		
-		info = regexp(shot_id, pattern, 'names');
+		if ~isfield(vsd_infos.v_paths, video_id),
+			msg = sprintf('Video <%s> does not exist in keyframes struct\n', video_id); 
+			logmsg(logfile, msg);
+			continue;
+		end
 		
-        %log start
-        %msg = sprintf(' +++ start encoding for [%s]', segment);
-        %log(msg);
-    
-        
-        info = regexp(shot_id, pattern, 'names');
-        
-        output_file = [output_dir, '/', info.video, '/', shot_id, '.mat'];
+		video_file = fullfile(video_dir, vsd_infos.v_paths.(video_id));
+		
+		start_frame = vsd_infos.shot_infos(ii, 1);
+        end_frame = vsd_infos.shot_infos(ii, 2);
+		
+		output_file = sprintf('%s/%s/%s/%s.mat', output_dir_fc, pat_id, video_id, shot_id);
+		
+		fprintf(' [%d --> %d --> %d] Extracting & Encoding for video [%s], shot [%s] ...\n', start_seg, ii, end_seg, video_id, shot_id);
+		
         if exist(output_file, 'file'),
             fprintf('File [%s] already exist. Skipped!!\n', output_file);
             continue;
         end
         
-        video_file = [video_dir, '/', info.video, '.mpg'];
+        [code_hoghof, code_mbh] = densetraj_extract_and_encode_hoghofmbh(video_file, codebook_hoghof, low_proj_hoghof, codebook_mbh, low_proj_mbh, start_frame, end_frame); %important
         
-        start_frame = shot_infos(ii, 1);
-        end_frame = shot_infos(ii, 2);
-        
-        fprintf(' [%d --> %d --> %d] Extracting & Encoding for [%s]...\n', start_seg, ii, end_seg, shot_id);
-        
-        code = densetraj_extract_and_encode(video_file, start_frame, end_frame, descriptor, codebook, kdtree, enc_type); %important
-        
-        % output code
-        output_vdir = [output_dir, '/', info.video];
-        if ~exist(output_vdir, 'file'),
-            mkdir(output_vdir);
-        end
-        
-        par_save(output_file, code); % MATLAB don't allow to save inside parfor loop
-              
-        %msg = sprintf(' +++ finish encoding for [%s]', segment);
-        %log(msg);
-        
+		code = [code_hoghof; code_mbh];
+		
+		par_save(output_file, code, 1); 	
+		%change_perm(output_file);
+		
+
     end
     
-    %toc
-    
-    %log end
-    msg = sprintf('Finish runing encode (%s, %s, %s, %d, %d)', descriptor, shot_ann, szPat, start_seg, end_seg );
-    log(msg);
-    
-       
-    % quit matlab
-    quit;
+	elapsed = toc;
+	elapsed_str = datestr(datenum(0,0,0,0,0,elapsed),'HH:MM:SS');
+	msg = sprintf('Finish running %s(%s, %s, %d, %d). Elapsed time: %s', mfilename, proj_name, shot_ann, start_seg, end_seg, elapsed_str);
+	logmsg(logfile, msg);
 
-end
-
-function par_save( output_file, code )
-  save( output_file, 'code');
-end
-
-function log (msg)
-	fh = fopen('/net/per900a/raid0/plsang/tools/kaori-secode-vsd2013/log/densetraj_encode_sge.log', 'a+');
-    msg = [msg, ' at ', datestr(now)];
-	fprintf(fh, [msg, '\n']);
-	fclose(fh);
+	%toc
+	quit;
 end
 
