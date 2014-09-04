@@ -107,7 +107,7 @@ function [frames, descrs] = sift_extract_features( img_path, sift_algo, param )
 			
             system(resize_cmd);
             
-			cmd = sprintf('%s %s --output %s --detector densesampling --ds_spacing %d --ds_scales 1.2+2.0 --descriptor sift', fspace_bin, tmp_img_resized_file, tmp_feat_file, param);
+			cmd = sprintf('%s %s --noErrorLog --output %s --detector densesampling --ds_spacing %d --ds_scales 1.2+2.0 --descriptor sift', fspace_bin, tmp_img_resized_file, tmp_feat_file, param);
 			system(cmd);
 			[frames, descrs] = load_colordescriptor_feature(tmp_feat_file);
 			
