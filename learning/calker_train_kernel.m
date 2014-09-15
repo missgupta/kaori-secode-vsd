@@ -4,13 +4,19 @@ function calker_train_kernel(proj_name, exp_name, ker, events, start_event, end_
 	
 	calker_exp_dir = sprintf('%s/%s/experiments/%s-calker/%s%s', ker.proj_dir, proj_name, exp_name, ker.feat, ker.suffix);
 
-    traindb_file = fullfile(calker_exp_dir, 'metadata', 'traindb.mat');
+	calker_common_exp_dir = sprintf('%s/%s/experiments/%s-calker/common/%s', ker.proj_dir, proj_name, exp_name, ker.feat);
+	db_file = fullfile(calker_common_exp_dir, ['database_' ker.dev_pat '.mat']);
+	load(db_file, 'database');
 	
-    traindb = load(traindb_file, 'traindb');
-	traindb = traindb.traindb;
-
+	selLabelPath = sprintf('%s/kernels/%s/%s.sel.mat', calker_exp_dir, ker.dev_pat, ker.histName);	
+	if ~exist(selLabelPath, 'file')
+		error('File not found!!\n');
+	end
+	
+	sel_feat_ = load(selLabelPath, 'sel_feat');
+	sel_feat = sel_feat_.sel_feat;
+	
     % event names
- 
     n_event = length(events);
 
     kerPath = sprintf('%s/kernels/%s/%s', calker_exp_dir, ker.dev_pat, ker.devname);
@@ -41,12 +47,20 @@ function calker_train_kernel(proj_name, exp_name, ker, events, start_event, end_
 		
 		fprintf('***** Training event ''%s''...\n', event_name);	
 		
-		labels = double(traindb.labels.(event_name));
+		labels = double(database.labels.(event_name));
+		non_zero_label_idx = labels ~= 0;
+		train_idx = sel_feat & non_zero_label_idx;
+		
+		%label_idx = find(labels ~= 0);
+		labels = labels(train_idx);
+		
+		cur_base = base(train_idx, train_idx);
+		
 		posWeight = ceil(length(find(labels == -1))/length(find(labels == 1)));
 		
 			
 		fprintf('SVM learning with predefined kernel matrix...\n');
-		svm = calker_svmkernellearn(base, labels,   ...
+		svm = calker_svmkernellearn(cur_base, labels,   ...
 						   'type', 'C',        ...
 						   'C', 1,            ...
 						   'verbosity', 1,     ...
@@ -65,10 +79,12 @@ function calker_train_kernel(proj_name, exp_name, ker, events, start_event, end_
 			svm.gamma = gamma;
 		end
 		
+		svm.train_idx = train_idx;
+		
 		% test it on train
 		if test_on_train,		
 			
-			scores = svm.alphay' * base(svm.svind, :) + svm.b ;
+			scores = svm.alphay' * cur_base(svm.svind, :) + svm.b ;
 			errs = scores .* labels < 0 ;
 			err  = mean(errs) ;
 			selPos = find(labels > 0) ;

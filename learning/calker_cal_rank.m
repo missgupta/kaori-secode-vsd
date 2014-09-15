@@ -2,21 +2,15 @@ function calker_cal_rank(proj_name, exp_name, ker, events)
 	
 	calker_exp_dir = sprintf('%s/%s/experiments/%s-calker/%s%s', ker.proj_dir, proj_name, exp_name, ker.feat, ker.suffix);
 	
-	test_db_file = sprintf('database_%s.mat', ker.test_pat);
-	
 	calker_common_exp_dir = sprintf('%s/%s/experiments/%s-calker/common/%s', ker.proj_dir, proj_name, exp_name, ker.feat);
 	
-	gt_file = fullfile(calker_common_exp_dir, test_db_file);
-	
-	if ~exist(gt_file, 'file'),
-		warning('File not found! [%s] USING COMMON DIR GROUNDTRUTH!!!', gt_file);
-		calker_common_exp_dir = sprintf('%s/%s/experiments/%s-calker/common', ker.proj_dir, proj_name, exp_name);
-		gt_file = fullfile(calker_common_exp_dir, test_db_file);
+	db_file = fullfile(calker_common_exp_dir, ['database_' ker.test_pat '.mat']);
+	if ~exist(db_file, 'file'),
+		db_file = sprintf('%s/%s/experiments/%s-calker/common/%s', ker.proj_dir, proj_name, exp_name, ['database_' ker.test_pat '.mat']);
 	end
-	
-	fprintf('Loading database [%s]...\n', test_db_file);
-    database = load(gt_file, 'database');
-	database = database.database;
+
+	fprintf('Loading database [%s]...\n', db_file);
+	load(db_file, 'database');
 	
 	scoreDir =  sprintf('%s/scores/%s', calker_exp_dir, ker.test_pat);
 	scorePath = sprintf('%s/scores/%s/%s.scores.mat', calker_exp_dir, ker.test_pat, ker.name);

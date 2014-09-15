@@ -12,7 +12,7 @@ function sift_select_features(sift_algo, param )
 	
 	
     % parameters
-	proj_dir = '/net/per610a/export/das11f/plsang/vsd2013';
+	proj_dir = '/net/per610a/export/das11f/plsang/vsd2014';
     max_features = 1000000;
     kf_sampling_rate = 0.2; %% ~130K Keyframes
 	
@@ -47,7 +47,7 @@ function sift_select_features(sift_algo, param )
 	feats = cell(length(selected_keyframes), 1);
 	
 	%kf_dir = sprintf('/net/sfv215/export/raid6/ledduy/mediaeval-2013/keyframe-5');
-	kf_dir = '/net/per610a/export/das11f/ledduy/mediaeval-vsd-2013/keyframe-5';
+	kf_dir = '/net/per610a/export/das11f/ledduy/mediaeval-vsd-2014/keyframe-5';
 	
     parfor ii = 1:length(selected_keyframes),
         keyframe_id = selected_keyframes{ii};

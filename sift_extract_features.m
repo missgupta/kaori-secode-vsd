@@ -31,8 +31,25 @@ function [frames, descrs] = sift_extract_features( img_path, sift_algo, param )
 			end
 			
 			try
-				im = imread(img_path);
+				tmpdir = '/tmp';
+				fspace_bin = '/net/per900a/raid0/plsang/tools/colordescriptor30/x86_64-linux-gcc/colorDescriptor';
+				ffmpeg_bin = '/net/per900a/raid0/plsang/software/ffmpeg-2.0/release-shared/bin/ffmpeg';
+				[~, fname, fext] = fileparts(img_path);
+				[~, tmpname] = fileparts(tempname);
+				tmp_feat_file = sprintf('%s/%s.%s.feat', tmpdir, fname, tmpname);
+				
+				%%% resize to maximum 500 (with keeping aspect ratio)
+				max_resize = 500;
+				tmp_img_resized_file = sprintf('%s/%s.%s.jpg', tmpdir, fname, tmpname);
+				resize_cmd = sprintf('%s -i %s -qscale 0 -vf "scale=%d:trunc(ow/a/2)*2" -loglevel quiet -y %s',...
+					ffmpeg_bin, img_path, max_resize, tmp_img_resized_file);
+				
+				system(resize_cmd);
+			
+				im = imread(tmp_img_resized_file);
 				[frames, descrs] = vl_covdet(single(rgb2gray(im)), 'method', obj.method);
+				
+				delete(tmp_img_resized_file);
 			catch
 				frames = [];
 				descrs = [];

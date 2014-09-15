@@ -1,7 +1,7 @@
 function calker_late_fusion(proj_name, exp_name, test_pat, suffix)
 
 	if ~exist('suffix', 'var'),
-		suffix = '--calker-v7.1';
+		suffix = '';
 	end
 	
 	ker.proj_dir = '/net/per610a/export/das11f/plsang';
@@ -10,19 +10,15 @@ function calker_late_fusion(proj_name, exp_name, test_pat, suffix)
 	addpath('/net/per900a/raid0/plsang/tools/libsvm-3.17/matlab');
 	addpath('/net/per900a/raid0/plsang/tools/vlfeat-0.9.16/toolbox');
 
-	event_list = '/net/per610a/export/das11f/plsang/trecvidmed13/metadata/common/trecvidmed13.events.ps.lst';
-	fh = fopen(event_list, 'r');
-	infos = textscan(fh, '%s %s', 'delimiter', ' >.< ', 'MultipleDelimsAsOne', 1);
-	fclose(fh);
-	events = infos{1};
+	events = {'objviolentscenes', 'subjviolentscenes'};
+	%events = {'subjviolentscenes'};
 			
 	ker_names = struct;
-	ker_names.('mbh_fc') = 'densetrajectory.mbh.cb256.fc.l2';
-	%ker_names.('mbh_soft') = 'densetrajectory.mbh.cb4000.soft.l2';
-	ker_names.('sift_fc') = 'covdet.hessian.sift.cb256.devel.fisher.pca.l2';
-	%ker_names.('sift_soft') = 'covdet.hessian.sift.cb4000.devel.soft.l2';
+	ker_names.('mbh_fc') = 'idensetraj.hoghofmbh.cb256.fc.pca.l2';
+	
+	ker_names.('sift_fc') = 'covdet.hessian.sift.cb256.fisher.pca.l2';
+	
 	ker_names.('mfcc_fc') = 'mfcc.rastamat.cb256.fc.l2';
-	%ker_names.('mfcc_soft') = 'mfcc.rastamat.cb4000.soft.l2';
 				
 	calker_exp_dir = sprintf('%s/%s/experiments/%s-calker', ker.proj_dir, proj_name, exp_name);
 	
@@ -73,6 +69,6 @@ function calker_late_fusion(proj_name, exp_name, test_pat, suffix)
 	ker.suffix = suffix;
 	ker.test_pat = test_pat;
 	
-	fprintf('Calculating MAP...\n');
-	calker_cal_map(proj_name, exp_name, ker, events);
+	calker_cal_rank(proj_name, exp_name, ker, events);
+	
 end

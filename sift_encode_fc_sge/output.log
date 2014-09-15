@@ -1,0 +1,43 @@
+Sun Sep 14 16:05:37 JST 2014
+[bc413.hpc.vpl.nii.ac.jp] [1208397] [matlab -nodisplay -r sift_encode_fc_sge('vsd2014', 'keyframe-5', 'covdet', 'hessian', 1, 1)]
+/net/per610a/export/das11f/plsang/codes/kaori-secode-vsd
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2009 The MathWorks, Inc.
+                Version 7.9.0.529 (R2009b) 64-bit (glnxa64)
+                              August 12, 2009
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+chmod: changing permissions of `/net/per610a/export/das11f/plsang/codes/kaori-secode-vsd/log/sift_encode_fc_sge.log': Operation not permitted
+Loading codebook [/net/per610a/export/das11f/plsang/vsd2014/feature/bow.codebook.devel/covdet.hessian.sift/data/codebook.gmm.256.80.mat]...
+Loading low projection matrix [/net/per610a/export/das11f/plsang/vsd2014/feature/bow.codebook.devel/covdet.hessian.sift/data/lowproj.80.128.mat]...
+Loading meta file [/net/per610a/export/das11f/plsang/vsd2014/metadata/vsd_infos.mat] ...!!
+ [1 --> 1 --> 1] Extracting & encoding for [VSD_devel2011_1 - 25 kfs]...
+[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m{Warning: Maybe blank image...[VSD_devel2011_1.shot_1.RKF_1.Frame_1]. Skipped!
+} 
+> In sift_encode_fc_sge at 136
+[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m{Warning: Maybe blank image...[VSD_devel2011_1.shot_1.RKF_6.Frame_6]. Skipped!
+} 
+> In sift_encode_fc_sge at 136
+[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m{Warning: Maybe blank image...[VSD_devel2011_1.shot_1.RKF_11.Frame_11]. Skipped!
+} 
+> In sift_encode_fc_sge at 136
+[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m{Warning: Maybe blank image...[VSD_devel2011_1.shot_1.RKF_16.Frame_16]. Skipped!
+} 
+> In sift_encode_fc_sge at 136
+[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m{Warning: Maybe blank image...[VSD_devel2011_1.shot_1.RKF_21.Frame_21]. Skipped!
+} 
+> In sift_encode_fc_sge at 136
+[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m{Warning: Maybe blank image...[VSD_devel2011_1.shot_1.RKF_26.Frame_26]. Skipped!
+} 
+> In sift_encode_fc_sge at 136
+[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m{Warning: Maybe blank image...[VSD_devel2011_1.shot_1.RKF_31.Frame_31]. Skipped!
+} 
+> In sift_encode_fc_sge at 136
+[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m{Warning: Maybe blank image...[VSD_devel2011_1.shot_1.RKF_36.Frame_36]. Skipped!
+} 
+> In sift_encode_fc_sge at 136
+[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m10 [0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m20 [0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0m[0;39m[0m[0;39m[0m[4;31m[0mSun Sep 14 16:06:09 JST 2014

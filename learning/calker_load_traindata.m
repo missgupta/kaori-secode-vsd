@@ -1,9 +1,17 @@
 
-function hists = calker_load_traindata(proj_name, exp_name, ker)
+function [hists, sel_feat] = calker_load_traindata(proj_name, exp_name, ker)
 
 %%Update change parameter to ker
 % load database
 
+	set_env;
+	configs = set_global_config();
+	logfile = sprintf('%s/%s.log', configs.logdir, mfilename);
+	msg = sprintf('Start running %s(%s, %s)', mfilename, proj_name, exp_name);
+	logmsg(logfile, msg);
+	change_perm(logfile);
+	tic;
+	
 calker_exp_dir = sprintf('%s/%s/experiments/%s-calker/%s%s', ker.proj_dir, proj_name, exp_name, ker.feat, ker.suffix);
 
 calker_common_exp_dir = sprintf('%s/%s/experiments/%s-calker/common/%s', ker.proj_dir, proj_name, exp_name, ker.feat);
@@ -45,14 +53,14 @@ for ii = 1:length(traindb_path), %
 	
 	if size(code, 1) ~= ker.num_dim,
 		warning('Dimension mismatch [%d-%d-%s]. Skipped !!\n', size(code, 1), ker.num_dim, segment_path);
-		size(code)
+		size(code);
 		continue;
 	end
 	
 	if any(isnan(code)),
 		warning('Feature contains NaN [%s]. Skipped !!\n', segment_path);
 		msg = sprintf('Feature contains NaN [%s]', segment_path);
-		log(msg);
+		logmsg(logfile, msg);
 		continue;
 	end
 	
@@ -60,7 +68,7 @@ for ii = 1:length(traindb_path), %
 	if all(code == 0),
 		warning('Feature contains all zeros [%s]. Skipped !!\n', segment_path);
 		msg = sprintf('Feature contains all zeros [%s]', segment_path);
-		log(msg);
+		logmsg(logfile, msg);
 		continue;
 	end
 	
@@ -80,26 +88,11 @@ for ii = 1:length(traindb_path), %
 end
 
 sel_feat = selected_idx ~= 0;
-hists = hists(:, sel_feat);
+%hists = hists(:, sel_feat);
 
-traindb.selected_idx = selected_idx;
-
-events = ker.events;
-
-for ii=1:length(events),
-	event = events{ii};
-	traindb.labels.(event) = database.labels.(event)(sel_feat);
-end
-
-fprintf('Saving training db ...\n');
-save(traindb_file, 'traindb');
+	elapsed = toc;
+	elapsed_str = datestr(datenum(0,0,0,0,0,elapsed),'HH:MM:SS');
+	msg = sprintf('Finish running %s(%s, %s, %s). Elapsed time: %s', mfilename, proj_name, exp_name, elapsed_str);
+	logmsg(logfile, msg);
 
 end
-
-function log (msg)
-	fh = fopen('/net/per900a/raid0/plsang/tools/kaori-secode-calker-v3/log/calker_load_traindata.log', 'a+');
-    msg = [msg, ' at ', datestr(now), '\n'];
-	fprintf(fh, msg);
-	fclose(fh);
-end
-
