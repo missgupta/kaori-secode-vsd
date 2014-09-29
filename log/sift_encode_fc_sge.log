@@ -860,3 +860,602 @@ Elapsed time: 01:52:25
 [2014/09/15 14:08:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25111, 25203)
 [2014/09/15 14:11:03] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 9673, 9765). Elapsed time: 02:11:17
 [2014/09/15 14:11:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25204, 25296)
+[2014/09/15 14:14:49] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 11905, 11997). Elapsed time: 02:15:02
+[2014/09/15 14:14:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25297, 25389)
+[2014/09/15 14:15:17] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 3535, 3627). Elapsed time: 02:15:31
+[2014/09/15 14:15:23] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 14416, 14508). Elapsed time: 02:15:37
+[2014/09/15 14:15:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25390, 25482)
+[2014/09/15 14:15:40] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25483, 25575)
+[2014/09/15 14:16:16] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 14881, 14973). Elapsed time: 02:16:30
+[2014/09/15 14:16:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25576, 25668)
+[2014/09/15 14:16:44] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 8278, 8370). Elapsed time: 02:16:58
+[2014/09/15 14:16:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25669, 25761)
+[2014/09/15 14:17:27] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 8371, 8463). Elapsed time: 02:17:42
+[2014/09/15 14:17:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25762, 25854)
+[2014/09/15 14:17:48] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 14509, 14601). Elapsed time: 02:18:02
+[2014/09/15 14:17:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25855, 25947)
+[2014/09/15 14:18:59] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 8650, 8742). Elapsed time: 02:19:13
+[2014/09/15 14:19:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25948, 26040)
+[2014/09/15 14:20:39] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 14788, 14880). Elapsed time: 02:20:55
+[2014/09/15 14:20:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26041, 26133)
+[2014/09/15 14:21:39] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 4651, 4743). Elapsed time: 02:21:55
+[2014/09/15 14:21:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26134, 26226)
+[2014/09/15 14:23:08] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 2698, 2790). Elapsed time: 02:23:22
+[2014/09/15 14:23:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26227, 26319)
+[2014/09/15 14:23:56] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 8464, 8556). Elapsed time: 02:24:12
+[2014/09/15 14:24:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26320, 26412)
+[2014/09/15 14:24:13] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 9301, 9393). Elapsed time: 02:24:28
+[2014/09/15 14:24:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26413, 26505)
+[2014/09/15 14:24:54] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 13114, 13206). Elapsed time: 02:25:07
+[2014/09/15 14:25:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26506, 26598)
+[2014/09/15 14:25:58] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 8836, 8928). Elapsed time: 02:26:11
+[2014/09/15 14:26:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26599, 26691)
+[2014/09/15 14:26:30] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 17950, 18042). Elapsed time: 00:43:50
+[2014/09/15 14:26:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26692, 26784)
+[2014/09/15 14:27:00] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 14974, 15066). Elapsed time: 02:27:15
+[2014/09/15 14:27:10] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26785, 26877)
+[2014/09/15 14:27:18] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 11812, 11904). Elapsed time: 02:27:32
+[2014/09/15 14:27:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26878, 26970)
+[2014/09/15 14:28:33] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 9394, 9486). Elapsed time: 02:28:47
+[2014/09/15 14:28:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26971, 27063)
+[2014/09/15 14:29:32] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 14695, 14787). Elapsed time: 02:29:46
+[2014/09/15 14:29:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27064, 27156)
+[2014/09/15 14:31:40] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 16741, 16833). Elapsed time: 00:53:15
+[2014/09/15 14:31:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27157, 27249)
+[2014/09/15 14:32:50] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 9208, 9300). Elapsed time: 02:33:03
+[2014/09/15 14:32:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27250, 27342)
+[2014/09/15 14:32:55] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 15532, 15624). Elapsed time: 01:13:15
+[2014/09/15 14:33:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27343, 27435)
+[2014/09/15 14:33:58] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 2140, 2232). Elapsed time: 02:34:11
+[2014/09/15 14:34:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27436, 27528)
+[2014/09/15 14:34:19] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 8743, 8835). Elapsed time: 02:34:35
+[2014/09/15 14:34:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27529, 27621)
+[2014/09/15 14:35:05] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 2512, 2604). Elapsed time: 02:35:18
+[2014/09/15 14:35:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27622, 27714)
+[2014/09/15 14:35:10] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 8557, 8649). Elapsed time: 02:35:24
+[2014/09/15 14:35:25] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27715, 27807)
+[2014/09/15 14:37:15] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 13300, 13392). Elapsed time: 02:37:29
+[2014/09/15 14:37:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27808, 27900)
+[2014/09/15 14:39:26] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 14602, 14694). Elapsed time: 02:39:40
+[2014/09/15 14:39:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27901, 27993)
+[2014/09/15 14:39:42] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 2233, 2325). Elapsed time: 02:39:58
+[2014/09/15 14:39:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27994, 28086)
+[2014/09/15 14:43:15] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 12742, 12834). Elapsed time: 02:43:28
+[2014/09/15 14:43:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28087, 28179)
+[2014/09/15 14:43:52] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 13486, 13578). Elapsed time: 02:44:06
+[2014/09/15 14:43:55] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 2047, 2139). Elapsed time: 02:44:11
+[2014/09/15 14:44:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28180, 28272)
+[2014/09/15 14:44:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28273, 28365)
+[2014/09/15 14:44:24] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 2605, 2697). Elapsed time: 02:44:38
+[2014/09/15 14:44:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28366, 28458)
+[2014/09/15 14:45:58] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 2791, 2883). Elapsed time: 02:46:12
+[2014/09/15 14:46:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28459, 28551)
+[2014/09/15 14:48:28] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 13858, 13950). Elapsed time: 02:48:48
+[2014/09/15 14:48:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28552, 28644)
+[2014/09/15 14:50:43] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 9487, 9579). Elapsed time: 02:50:58
+[2014/09/15 14:50:53] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 2419, 2511). Elapsed time: 02:51:07
+[2014/09/15 14:50:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28645, 28737)
+[2014/09/15 14:51:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28738, 28830)
+[2014/09/15 14:52:19] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 14044, 14136). Elapsed time: 02:52:33
+[2014/09/15 14:52:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28831, 28923)
+[2014/09/15 14:52:29] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 13021, 13113). Elapsed time: 02:52:44
+[2014/09/15 14:52:37] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 2326, 2418). Elapsed time: 02:52:53
+[2014/09/15 14:52:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29017, 29109)
+[2014/09/15 14:54:05] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 1954, 2046). Elapsed time: 02:54:19
+[2014/09/15 14:54:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29110, 29202)
+[2014/09/15 14:54:30] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 12463, 12555). Elapsed time: 02:54:44
+[2014/09/15 14:54:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29203, 29295)
+[2014/09/15 14:54:49] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 1768, 1860). Elapsed time: 02:55:04
+[2014/09/15 14:54:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29296, 29388)
+[2014/09/15 14:56:38] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 1861, 1953). Elapsed time: 02:56:52
+[2014/09/15 14:56:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29389, 29481)
+[2014/09/15 14:59:16] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 14137, 14229). Elapsed time: 02:59:30
+[2014/09/15 14:59:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29482, 29574)
+[2014/09/15 15:00:01] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 13951, 14043). Elapsed time: 03:00:18
+[2014/09/15 15:00:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29575, 29667)
+[2014/09/15 15:00:16] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 15160, 15252). Elapsed time: 02:04:06
+[2014/09/15 15:00:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29668, 29760)
+[2014/09/15 15:00:49] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 13765, 13857). Elapsed time: 03:01:05
+[2014/09/15 15:00:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29761, 29853)
+[2014/09/15 15:02:20] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 13672, 13764). Elapsed time: 03:02:33
+[2014/09/15 15:02:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29854, 29946)
+[2014/09/15 15:02:56] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 12928, 13020). Elapsed time: 03:03:11
+[2014/09/15 15:03:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29947, 30039)
+[2014/09/15 15:04:29] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 17485, 17577). Elapsed time: 01:23:19
+[2014/09/15 15:04:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30040, 30132)
+[2014/09/15 15:04:48] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 15067, 15159). Elapsed time: 02:20:08
+[2014/09/15 15:04:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30133, 30225)
+[2014/09/15 15:07:11] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 17857, 17949). Elapsed time: 01:24:46
+[2014/09/15 15:07:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30226, 30318)
+[2014/09/15 15:07:34] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 13393, 13485). Elapsed time: 03:07:48
+[2014/09/15 15:07:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30319, 30411)
+[2014/09/15 15:10:01] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 12649, 12741). Elapsed time: 03:10:16
+[2014/09/15 15:10:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30412, 30504)
+[2014/09/15 15:11:58] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 17392, 17484). Elapsed time: 01:31:03
+[2014/09/15 15:12:10] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30505, 30597)
+[2014/09/15 15:12:54] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 13579, 13671). Elapsed time: 03:13:08
+[2014/09/15 15:13:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30598, 30690)
+[2014/09/15 15:13:15] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 17020, 17112). Elapsed time: 01:33:51
+[2014/09/15 15:13:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30691, 30783)
+[2014/09/15 15:14:54] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 19345, 19437). Elapsed time: 01:26:59
+[2014/09/15 15:15:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30784, 30876)
+[2014/09/15 15:18:55] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 17206, 17298). Elapsed time: 01:38:30
+[2014/09/15 15:19:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30877, 30969)
+[2014/09/15 15:19:12] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 17764, 17856). Elapsed time: 01:37:17
+[2014/09/15 15:19:19] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 15904, 15996). Elapsed time: 01:54:10
+[2014/09/15 15:19:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30970, 31062)
+[2014/09/15 15:19:25] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31063, 31155)
+[2014/09/15 15:20:43] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 16648, 16740). Elapsed time: 01:43:18
+[2014/09/15 15:20:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31156, 31248)
+[2014/09/15 15:22:12] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 16927, 17019). Elapsed time: 01:43:03
+[2014/09/15 15:22:19] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 19159, 19251). Elapsed time: 01:35:09
+[2014/09/15 15:22:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31342, 31434)
+[2014/09/15 15:22:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31249, 31341)
+[2014/09/15 15:22:37] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 17113, 17205). Elapsed time: 01:42:42
+[2014/09/15 15:22:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31435, 31527)
+[2014/09/15 15:22:56] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 17578, 17670). Elapsed time: 01:41:46
+[2014/09/15 15:23:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31528, 31620)
+[2014/09/15 15:23:20] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 17671, 17763). Elapsed time: 01:41:25
+[2014/09/15 15:23:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31621, 31713)
+[2014/09/15 15:23:37] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 19252, 19344). Elapsed time: 01:35:57
+[2014/09/15 15:23:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31714, 31806)
+[2014/09/15 15:24:14] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 15253, 15345). Elapsed time: 02:23:18
+[2014/09/15 15:24:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31807, 31899)
+[2014/09/15 15:24:38] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 12835, 12927). Elapsed time: 03:24:54
+[2014/09/15 15:24:53] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 12556, 12648). Elapsed time: 03:25:07
+[2014/09/15 15:24:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31900, 31992)
+[2014/09/15 15:25:02] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 18043, 18135). Elapsed time: 01:42:07
+[2014/09/15 15:25:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32086, 32178)
+[2014/09/15 15:25:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31993, 32085)
+[2014/09/15 15:26:58] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 16834, 16926). Elapsed time: 01:48:33
+[2014/09/15 15:27:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32179, 32271)
+[2014/09/15 15:27:58] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 23530, 23622). Elapsed time: 01:24:18
+[2014/09/15 15:28:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32272, 32364)
+[2014/09/15 15:28:55] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 15625, 15717). Elapsed time: 02:08:00
+[2014/09/15 15:29:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32365, 32457)
+[2014/09/15 15:29:30] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 18508, 18600). Elapsed time: 01:44:50
+[2014/09/15 15:29:30] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 15718, 15810). Elapsed time: 02:07:50
+[2014/09/15 15:29:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32458, 32550)
+[2014/09/15 15:29:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32551, 32643)
+[2014/09/15 15:30:02] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 23158, 23250). Elapsed time: 01:28:07
+[2014/09/15 15:30:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32644, 32736)
+[2014/09/15 15:30:50] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26599, 26691). Elapsed time: 01:04:40
+[2014/09/15 15:30:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32737, 32829)
+[2014/09/15 15:32:02] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 22042, 22134). Elapsed time: 01:35:23
+[2014/09/15 15:32:04] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 18694, 18786). Elapsed time: 01:46:09
+[2014/09/15 15:32:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32830, 32922)
+[2014/09/15 15:32:23] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 16369, 16461). Elapsed time: 01:57:43
+[2014/09/15 15:32:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33016, 33108)
+[2014/09/15 15:33:59] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 18880, 18972). Elapsed time: 01:47:04
+[2014/09/15 15:34:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33109, 33201)
+[2014/09/15 15:34:19] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 15439, 15531). Elapsed time: 02:17:24
+[2014/09/15 15:34:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33202, 33294)
+[2014/09/15 15:35:40] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26506, 26598). Elapsed time: 01:10:30
+[2014/09/15 15:35:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33295, 33387)
+[2014/09/15 15:36:07] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25390, 25482). Elapsed time: 01:20:42
+[2014/09/15 15:36:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33388, 33480)
+[2014/09/15 15:36:45] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 18415, 18507). Elapsed time: 01:52:20
+[2014/09/15 15:36:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33481, 33573)
+. Elapsed time: 02:13:44
+[2014/09/15 15:37:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33574, 33666)
+[2014/09/15 15:37:16] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 22135, 22227). Elapsed time: 01:40:21
+[2014/09/15 15:37:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33667, 33759)
+[2014/09/15 15:37:31] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 22972, 23064). Elapsed time: 01:37:36
+[2014/09/15 15:37:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33760, 33852)
+[2014/09/15 15:37:47] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 22228, 22320). Elapsed time: 01:40:37
+[2014/09/15 15:37:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33853, 33945)
+[2014/09/15 15:38:33] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 16183, 16275). Elapsed time: 02:05:38
+[2014/09/15 15:38:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33946, 34038)
+[2014/09/15 15:38:47] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 23344, 23436). Elapsed time: 01:35:37
+[2014/09/15 15:38:48] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 16090, 16182). Elapsed time: 02:08:08
+[2014/09/15 15:38:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34132, 34224)
+[2014/09/15 15:38:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34039, 34131)
+[2014/09/15 15:38:55] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 22786, 22878). Elapsed time: 01:39:45
+[2014/09/15 15:39:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34225, 34317)
+[2014/09/15 15:39:31] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 17299, 17391). Elapsed time: 01:58:37
+[2014/09/15 15:39:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34318, 34410)
+[2014/09/15 15:39:44] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 15346, 15438). Elapsed time: 02:24:04
+[2014/09/15 15:39:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34411, 34503)
+[2014/09/15 15:41:40] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 22507, 22599). Elapsed time: 01:43:00
+[2014/09/15 15:41:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34504, 34596)
+[2014/09/15 15:42:07] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 18322, 18414). Elapsed time: 01:58:12
+[2014/09/15 15:42:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34597, 34689)
+[2014/09/15 15:42:17] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 18787, 18879). Elapsed time: 01:55:37
+[2014/09/15 15:42:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34690, 34782)
+[2014/09/15 15:42:29] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 23623, 23715). Elapsed time: 01:38:19
+[2014/09/15 15:42:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34783, 34875)
+[2014/09/15 15:43:16] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 18229, 18321). Elapsed time: 02:00:06
+[2014/09/15 15:43:18] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 19066, 19158). Elapsed time: 01:56:22
+[2014/09/15 15:43:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34969, 35061)
+[2014/09/15 15:43:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34876, 34968)
+[2014/09/15 15:43:34] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 16276, 16368). Elapsed time: 02:10:24
+[2014/09/15 15:43:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35062, 35154)
+[2014/09/15 15:43:43] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 18136, 18228). Elapsed time: 02:00:48
+[2014/09/15 15:43:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35155, 35247)
+[2014/09/15 15:44:19] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 18973, 19065). Elapsed time: 01:57:24
+[2014/09/15 15:44:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35248, 35340)
+[2014/09/15 15:44:28] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25297, 25389). Elapsed time: 01:29:33
+[2014/09/15 15:44:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35341, 35433)
+[2014/09/15 15:45:01] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 22321, 22413). Elapsed time: 01:47:36
+[2014/09/15 15:45:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35434, 35526)
+[2014/09/15 15:46:07] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 23251, 23343). Elapsed time: 01:43:27
+[2014/09/15 15:46:14] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 22879, 22971). Elapsed time: 01:46:49
+[2014/09/15 15:46:17] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 15997, 16089). Elapsed time: 02:18:07
+[2014/09/15 15:46:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35527, 35619)
+[2014/09/15 15:46:25] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35620, 35712)
+[2014/09/15 15:46:47] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 18601, 18693). Elapsed time: 02:01:52
+[2014/09/15 15:46:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35806, 35898)
+[2014/09/15 15:47:32] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 22414, 22506). Elapsed time: 01:49:07
+[2014/09/15 15:47:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35899, 35991)
+[2014/09/15 15:49:26] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 22600, 22692). Elapsed time: 01:50:31
+[2014/09/15 15:49:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35992, 36084)
+[2014/09/15 15:51:42] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 16555, 16647). Elapsed time: 02:15:47
+[2014/09/15 15:51:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36085, 36177)
+[2014/09/15 15:52:24] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 22693, 22785). Elapsed time: 01:53:14
+[2014/09/15 15:52:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36178, 36270)
+[2014/09/15 15:53:16] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 21949, 22041). Elapsed time: 01:56:51
+[2014/09/15 15:53:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36271, 36363)
+[2014/09/15 15:55:42] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 16462, 16554). Elapsed time: 02:20:32
+[2014/09/15 15:55:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36364, 36456)
+[2014/09/15 15:58:04] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 20926, 21018). Elapsed time: 02:05:54
+[2014/09/15 15:58:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36457, 36549)
+[2014/09/15 15:59:18] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 23065, 23157). Elapsed time: 01:58:23
+[2014/09/15 15:59:23] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 23437, 23529). Elapsed time: 01:56:13
+[2014/09/15 15:59:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36550, 36642)
+[2014/09/15 15:59:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36643, 36735)
+[2014/09/15 16:00:46] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25948, 26040). Elapsed time: 01:41:36
+[2014/09/15 16:00:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36736, 36828)
+[2014/09/15 16:01:44] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25669, 25761). Elapsed time: 01:44:49
+[2014/09/15 16:01:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36829, 36921)
+[2014/09/15 16:02:11] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26227, 26319). Elapsed time: 01:38:46
+[2014/09/15 16:02:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36922, 37014)
+[2014/09/15 16:02:47] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25576, 25668). Elapsed time: 01:46:22
+[2014/09/15 16:02:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37015, 37107)
+[2014/09/15 16:03:13] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 23809, 23901). Elapsed time: 01:58:33
+[2014/09/15 16:03:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37108, 37200)
+[2014/09/15 16:03:43] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26320, 26412). Elapsed time: 01:39:33
+[2014/09/15 16:03:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37201, 37293)
+[2014/09/15 16:03:57] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25483, 25575). Elapsed time: 01:48:17
+[2014/09/15 16:03:58] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 21019, 21111). Elapsed time: 02:11:34
+[2014/09/15 16:04:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37294, 37386)
+[2014/09/15 16:04:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37387, 37479)
+[2014/09/15 16:05:32] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 21856, 21948). Elapsed time: 02:09:07
+[2014/09/15 16:05:35] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 21391, 21483). Elapsed time: 02:11:10
+[2014/09/15 16:05:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37480, 37572)
+[2014/09/15 16:05:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37573, 37665)
+[2014/09/15 16:05:48] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26041, 26133). Elapsed time: 01:44:53
+[2014/09/15 16:05:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37666, 37758)
+[2014/09/15 16:08:27] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 21763, 21855). Elapsed time: 02:13:02
+[2014/09/15 16:08:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37759, 37851)
+[2014/09/15 16:09:44] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 24088, 24180). Elapsed time: 02:04:03
+[2014/09/15 16:09:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37852, 37944)
+[2014/09/15 16:10:47] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25018, 25110). Elapsed time: 02:02:07
+[2014/09/15 16:10:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37945, 38037)
+[2014/09/15 16:12:06] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 20647, 20739). Elapsed time: 02:20:26
+[2014/09/15 16:12:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38038, 38130)
+[2014/09/15 16:14:19] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 24646, 24738). Elapsed time: 02:06:24
+[2014/09/15 16:14:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38131, 38223)
+[2014/09/15 16:14:55] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25855, 25947). Elapsed time: 01:57:00
+[2014/09/15 16:14:55] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25762, 25854). Elapsed time: 01:57:15
+[2014/09/15 16:15:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38224, 38316)
+[2014/09/15 16:15:34] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 20275, 20367). Elapsed time: 02:24:39
+[2014/09/15 16:15:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38410, 38502)
+[2014/09/15 16:16:03] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 23995, 24087). Elapsed time: 02:10:38
+[2014/09/15 16:16:08] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25111, 25203). Elapsed time: 02:07:14
+[2014/09/15 16:16:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38503, 38595)
+[2014/09/15 16:16:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38596, 38688)
+[2014/09/15 16:17:40] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 24739, 24831). Elapsed time: 02:09:46
+[2014/09/15 16:17:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38689, 38781)
+[2014/09/15 16:18:53] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29296, 29388). Elapsed time: 01:23:58
+[2014/09/15 16:19:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38782, 38874)
+[2014/09/15 16:19:24] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 24274, 24366). Elapsed time: 02:12:59
+[2014/09/15 16:19:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38875, 38967)
+[2014/09/15 16:19:45] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 24832, 24924). Elapsed time: 02:11:35
+[2014/09/15 16:19:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38968, 39060)
+[2014/09/15 16:20:10] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26413, 26505). Elapsed time: 01:55:45
+[2014/09/15 16:20:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39061, 39153)
+[2014/09/15 16:20:29] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 20740, 20832). Elapsed time: 02:28:34
+[2014/09/15 16:20:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39154, 39246)
+[2014/09/15 16:21:15] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27715, 27807). Elapsed time: 01:45:50
+[2014/09/15 16:21:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39247, 39339)
+[2014/09/15 16:21:30] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 24460, 24552). Elapsed time: 02:14:50
+[2014/09/15 16:21:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39340, 39432)
+[2014/09/15 16:21:46] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 21484, 21576). Elapsed time: 02:26:36
+[2014/09/15 16:21:51] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 25204, 25296). Elapsed time: 02:10:42
+[2014/09/15 16:21:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39526, 39618)
+[2014/09/15 16:22:33] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 23716, 23808). Elapsed time: 02:18:23
+[2014/09/15 16:22:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39619, 39711)
+[2014/09/15 16:22:56] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 20182, 20274). Elapsed time: 02:32:46
+[2014/09/15 16:23:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39712, 39804)
+[2014/09/15 16:23:42] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 20368, 20460). Elapsed time: 02:32:46
+[2014/09/15 16:23:51] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 20554, 20646). Elapsed time: 02:32:26
+[2014/09/15 16:23:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39805, 39897)
+[2014/09/15 16:23:55] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39898, 39990)
+[2014/09/15 16:24:28] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 24553, 24645). Elapsed time: 02:17:33
+[2014/09/15 16:24:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39991, 40083)
+[2014/09/15 16:25:52] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 24925, 25017). Elapsed time: 02:17:27
+[2014/09/15 16:25:56] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 21577, 21669). Elapsed time: 02:30:31
+[2014/09/15 16:25:59] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26134, 26226). Elapsed time: 02:04:04
+[2014/09/15 16:26:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40177, 40269)
+[2014/09/15 16:28:00] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 23902, 23994). Elapsed time: 02:22:35
+[2014/09/15 16:28:10] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40363, 40455)
+[2014/09/15 16:28:18] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 21298, 21390). Elapsed time: 02:33:53
+[2014/09/15 16:28:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40456, 40548)
+[2014/09/15 16:28:51] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 20833, 20925). Elapsed time: 02:36:41
+[2014/09/15 16:28:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40549, 40641)
+[2014/09/15 16:28:58] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 20461, 20553). Elapsed time: 02:37:48
+[2014/09/15 16:29:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40642, 40734)
+[2014/09/15 16:29:17] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 24367, 24459). Elapsed time: 02:22:37
+[2014/09/15 16:29:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40735, 40827)
+[2014/09/15 16:30:17] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 21112, 21204). Elapsed time: 02:37:52
+[2014/09/15 16:30:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40828, 40920)
+[2014/09/15 16:31:23] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 24181, 24273). Elapsed time: 02:25:14
+[2014/09/15 16:31:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40921, 41013)
+[2014/09/15 16:33:46] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 21670, 21762). Elapsed time: 02:38:21
+[2014/09/15 16:33:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41014, 41106)
+[2014/09/15 16:35:08] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 21205, 21297). Elapsed time: 02:40:58
+[2014/09/15 16:35:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41107, 41199)
+[2014/09/15 16:36:31] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27808, 27900). Elapsed time: 01:59:06
+[2014/09/15 16:36:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41200, 41292)
+[2014/09/15 16:37:38] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32272, 32364). Elapsed time: 01:09:29
+[2014/09/15 16:37:43] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30412, 30504). Elapsed time: 01:27:33
+[2014/09/15 16:37:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41293, 41385)
+[2014/09/15 16:38:07] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27343, 27435). Elapsed time: 02:04:57
+[2014/09/15 16:38:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41479, 41571)
+[2014/09/15 16:39:23] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30505, 30597). Elapsed time: 01:27:13
+[2014/09/15 16:39:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41572, 41664)
+[2014/09/15 16:39:50] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28273, 28365). Elapsed time: 01:55:40
+[2014/09/15 16:39:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41665, 41757)
+[2014/09/15 16:40:22] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 19531, 19623). Elapsed time: 02:51:57
+[2014/09/15 16:40:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41758, 41850)
+[2014/09/15 16:41:20] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 20089, 20181). Elapsed time: 02:51:10
+[2014/09/15 16:41:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41851, 41943)
+[2014/09/15 16:42:36] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26971, 27063). Elapsed time: 02:13:56
+[2014/09/15 16:42:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41944, 42036)
+[2014/09/15 16:42:53] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26692, 26784). Elapsed time: 02:16:13
+[2014/09/15 16:43:00] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 19624, 19716). Elapsed time: 02:54:20
+[2014/09/15 16:43:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42130, 42222)
+[2014/09/15 16:43:45] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28180, 28272). Elapsed time: 01:59:35
+[2014/09/15 16:43:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42223, 42315)
+[2014/09/15 16:43:54] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27901, 27993). Elapsed time: 02:04:14
+[2014/09/15 16:44:08] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30691, 30783). Elapsed time: 01:30:43
+[2014/09/15 16:44:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42316, 42408)
+[2014/09/15 16:44:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42409, 42501)
+[2014/09/15 16:44:44] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 19810, 19902). Elapsed time: 02:55:19
+[2014/09/15 16:44:53] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29017, 29109). Elapsed time: 01:52:13
+[2014/09/15 16:44:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42502, 42594)
+[2014/09/15 16:45:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42595, 42687)
+[2014/09/15 16:45:24] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29389, 29481). Elapsed time: 01:48:29
+[2014/09/15 16:45:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42688, 42780)
+[2014/09/15 16:46:19] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 19438, 19530). Elapsed time: 02:58:09
+[2014/09/15 16:46:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42781, 42873)
+[2014/09/15 16:48:06] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37480, 37572). Elapsed time: 00:42:26
+[2014/09/15 16:48:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42874, 42966)
+[2014/09/15 16:48:23] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 19903, 19995). Elapsed time: 02:58:43
+[2014/09/15 16:48:28] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29947, 30039). Elapsed time: 01:45:18
+[2014/09/15 16:48:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42967, 43059)
+[2014/09/15 16:48:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43060, 43152)
+[2014/09/15 16:48:50] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 19996, 20088). Elapsed time: 02:58:40
+[2014/09/15 16:48:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43153, 43245)
+[2014/09/15 16:49:11] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28552, 28644). Elapsed time: 02:00:31
+[2014/09/15 16:49:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43246, 43338)
+[2014/09/15 16:49:46] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30970, 31062). Elapsed time: 01:30:21
+[2014/09/15 16:49:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43339, 43431)
+[2014/09/15 16:49:59] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28366, 28458). Elapsed time: 02:05:19
+[2014/09/15 16:50:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43432, 43524)
+[2014/09/15 16:50:28] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26878, 26970). Elapsed time: 02:23:03
+[2014/09/15 16:50:35] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 19717, 19809). Elapsed time: 03:01:10
+[2014/09/15 16:50:36] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29761, 29853). Elapsed time: 01:49:41
+[2014/09/15 16:50:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43711, 43803)
+[2014/09/15 16:50:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43618, 43710)
+[2014/09/15 16:50:40] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43525, 43617)
+[2014/09/15 16:51:15] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28459, 28551). Elapsed time: 02:05:05
+[2014/09/15 16:51:16] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27529, 27621). Elapsed time: 02:16:52
+[2014/09/15 16:51:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43804, 43896)
+[2014/09/15 16:51:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43897, 43989)
+[2014/09/15 16:51:37] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29668, 29760). Elapsed time: 01:51:12
+[2014/09/15 16:51:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43990, 44082)
+[2014/09/15 16:52:21] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28087, 28179). Elapsed time: 02:08:56
+[2014/09/15 16:52:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44083, 44175)
+[2014/09/15 16:53:02] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31342, 31434). Elapsed time: 01:30:37
+[2014/09/15 16:53:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44176, 44268)
+[2014/09/15 16:54:04] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30877, 30969). Elapsed time: 01:34:54
+[2014/09/15 16:54:05] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27994, 28086). Elapsed time: 02:14:10
+[2014/09/15 16:54:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44362, 44454)
+[2014/09/15 16:54:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44269, 44361)
+[2014/09/15 16:54:31] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28645, 28737). Elapsed time: 02:03:36
+[2014/09/15 16:54:32] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30598, 30690). Elapsed time: 01:41:22
+[2014/09/15 16:54:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44548, 44640)
+[2014/09/15 16:54:53] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30040, 30132). Elapsed time: 01:50:13
+[2014/09/15 16:55:00] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29482, 29574). Elapsed time: 01:55:36
+[2014/09/15 16:55:05] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30133, 30225). Elapsed time: 01:50:10
+[2014/09/15 16:55:09] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30784, 30876). Elapsed time: 01:39:59
+[2014/09/15 16:55:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44827, 44919)
+[2014/09/15 16:55:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44734, 44826)
+[2014/09/15 16:55:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44920, 45012)
+[2014/09/15 16:55:37] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30226, 30318). Elapsed time: 01:48:12
+[2014/09/15 16:55:55] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45013, 45105)
+[2014/09/15 16:56:26] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28738, 28830). Elapsed time: 02:05:16
+[2014/09/15 16:56:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45106, 45198)
+[2014/09/15 16:58:21] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31249, 31341). Elapsed time: 01:35:56
+[2014/09/15 16:58:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45199, 45291)
+[2014/09/15 17:00:15] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29575, 29667). Elapsed time: 02:00:05
+[2014/09/15 17:00:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45292, 45384)
+[2014/09/15 17:00:25] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28831, 28923). Elapsed time: 02:08:01
+[2014/09/15 17:00:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45385, 45477)
+[2014/09/15 17:01:18] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32179, 32271). Elapsed time: 01:34:09
+[2014/09/15 17:01:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45478, 45570)
+[2014/09/15 17:01:36] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31063, 31155). Elapsed time: 01:42:10
+[2014/09/15 17:01:39] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45571, 45663)
+[2014/09/15 17:02:01] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 28924, 29016). Elapsed time: 02:09:21
+[2014/09/15 17:02:09] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45664, 45756)
+[2014/09/15 17:02:21] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29203, 29295). Elapsed time: 02:07:41
+[2014/09/15 17:02:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45757, 45849)
+[2014/09/15 17:02:41] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27157, 27249). Elapsed time: 02:30:46
+[2014/09/15 17:02:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45850, 45942)
+[2014/09/15 17:03:19] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 30319, 30411). Elapsed time: 01:55:39
+[2014/09/15 17:03:24] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45943, 46035)
+[2014/09/15 17:04:38] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31435, 31527). Elapsed time: 01:41:58
+[2014/09/15 17:04:54] Start running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 46036, 46058)
+[2014/09/15 17:05:01] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31807, 31899). Elapsed time: 01:40:36
+[2014/09/15 17:05:20] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29854, 29946). Elapsed time: 02:02:55
+[2014/09/15 17:08:08] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31156, 31248). Elapsed time: 01:47:14
+[2014/09/15 17:08:09] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 29110, 29202). Elapsed time: 02:13:59
+[2014/09/15 17:11:02] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27250, 27342). Elapsed time: 02:38:07
+[2014/09/15 17:13:24] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27064, 27156). Elapsed time: 02:43:44
+[2014/09/15 17:13:44] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 26785, 26877). Elapsed time: 02:46:34
+[2014/09/15 17:16:02] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31528, 31620). Elapsed time: 01:52:52
+[2014/09/15 17:16:12] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 46036, 46058). Elapsed time: 00:11:17
+[2014/09/15 17:19:01] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27436, 27528). Elapsed time: 02:44:51
+[2014/09/15 17:21:19] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31714, 31806). Elapsed time: 01:57:39
+[2014/09/15 17:21:23] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31621, 31713). Elapsed time: 01:57:58
+[2014/09/15 17:23:53] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32086, 32178). Elapsed time: 01:58:43
+[2014/09/15 17:24:11] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36085, 36177). Elapsed time: 01:32:16
+[2014/09/15 17:28:01] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31900, 31992). Elapsed time: 02:03:06
+[2014/09/15 17:28:32] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36178, 36270). Elapsed time: 01:35:52
+[2014/09/15 17:28:51] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34225, 34317). Elapsed time: 01:49:42
+[2014/09/15 17:31:50] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36922, 37014). Elapsed time: 01:29:25
+[2014/09/15 17:33:24] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37294, 37386). Elapsed time: 01:29:14
+[2014/09/15 17:33:45] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36271, 36363). Elapsed time: 01:40:20
+[2014/09/15 17:36:28] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 27622, 27714). Elapsed time: 03:01:18
+[2014/09/15 17:36:29] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 31993, 32085). Elapsed time: 02:11:19
+[2014/09/15 17:37:56] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33016, 33108). Elapsed time: 02:05:16
+[2014/09/15 17:41:06] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37015, 37107). Elapsed time: 01:38:12
+[2014/09/15 17:41:54] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37108, 37200). Elapsed time: 01:38:29
+[2014/09/15 17:42:21] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36736, 36828). Elapsed time: 01:41:26
+[2014/09/15 17:42:53] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36829, 36921). Elapsed time: 01:40:58
+[2014/09/15 17:42:58] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37387, 37479). Elapsed time: 01:38:48
+[2014/09/15 17:44:04] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36457, 36549). Elapsed time: 01:45:55
+[2014/09/15 17:44:22] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35992, 36084). Elapsed time: 01:54:42
+[2014/09/15 17:44:24] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37201, 37293). Elapsed time: 01:40:29
+[2014/09/15 17:44:50] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36364, 36456). Elapsed time: 01:48:55
+[2014/09/15 17:46:11] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32830, 32922). Elapsed time: 02:14:01
+[2014/09/15 17:49:31] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36643, 36735). Elapsed time: 01:49:51
+[2014/09/15 17:51:09] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33202, 33294). Elapsed time: 02:16:44
+[2014/09/15 17:52:37] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44734, 44826). Elapsed time: 00:57:27
+[2014/09/15 17:55:03] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 36550, 36642). Elapsed time: 01:55:38
+[2014/09/15 17:55:39] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34132, 34224). Elapsed time: 02:16:44
+[2014/09/15 17:55:54] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32458, 32550). Elapsed time: 02:26:14
+[2014/09/15 17:57:05] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32737, 32829). Elapsed time: 02:26:10
+[2014/09/15 18:00:37] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40456, 40548). Elapsed time: 01:32:13
+[2014/09/15 18:01:52] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32551, 32643). Elapsed time: 02:32:12
+[2014/09/15 18:01:56] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33760, 33852). Elapsed time: 02:24:16
+[2014/09/15 18:03:33] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34318, 34410). Elapsed time: 02:23:53
+[2014/09/15 18:03:41] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33295, 33387). Elapsed time: 02:27:46
+[2014/09/15 18:04:24] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33109, 33201). Elapsed time: 02:30:14
+[2014/09/15 18:04:42] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32644, 32736). Elapsed time: 02:34:32
+[2014/09/15 18:05:42] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39247, 39339). Elapsed time: 01:44:17
+[2014/09/15 18:05:50] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37573, 37665). Elapsed time: 02:00:10
+[2014/09/15 18:06:44] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33946, 34038). Elapsed time: 02:28:04
+[2014/09/15 18:06:54] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32365, 32457). Elapsed time: 02:37:44
+[2014/09/15 18:08:57] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38038, 38130). Elapsed time: 01:56:48
+[2014/09/15 18:10:36] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35155, 35247). Elapsed time: 02:26:41
+[2014/09/15 18:11:00] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42688, 42780). Elapsed time: 01:25:20
+[2014/09/15 18:11:11] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33853, 33945). Elapsed time: 02:33:16
+[2014/09/15 18:11:13] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34039, 34131). Elapsed time: 02:32:19
+[2014/09/15 18:11:32] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34411, 34503). Elapsed time: 02:31:37
+[2014/09/15 18:11:34] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35062, 35154). Elapsed time: 02:27:54
+[2014/09/15 18:11:55] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41479, 41571). Elapsed time: 01:33:46
+[2014/09/15 18:12:43] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38317, 38409). Elapsed time: 01:57:33
+[2014/09/15 18:13:05] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33667, 33759). Elapsed time: 02:35:40
+[2014/09/15 18:13:24] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37666, 37758). Elapsed time: 02:07:29
+[2014/09/15 18:13:57] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35806, 35898). Elapsed time: 02:27:03
+[2014/09/15 18:14:17] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37759, 37851). Elapsed time: 02:05:37
+[2014/09/15 18:14:21] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37852, 37944). Elapsed time: 02:04:26
+[2014/09/15 18:16:08] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35341, 35433). Elapsed time: 02:31:28
+[2014/09/15 18:18:28] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38131, 38223). Elapsed time: 02:04:03
+[2014/09/15 18:19:09] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35248, 35340). Elapsed time: 02:34:44
+[2014/09/15 18:19:24] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35620, 35712). Elapsed time: 02:32:59
+[2014/09/15 18:19:29] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34597, 34689). Elapsed time: 02:37:19
+[2014/09/15 18:20:07] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 32923, 33015). Elapsed time: 02:47:57
+[2014/09/15 18:20:07] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38224, 38316). Elapsed time: 02:04:57
+[2014/09/15 18:20:38] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38410, 38502). Elapsed time: 02:04:58
+[2014/09/15 18:21:44] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35713, 35805). Elapsed time: 02:35:19
+[2014/09/15 18:22:11] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38968, 39060). Elapsed time: 02:02:16
+[2014/09/15 18:25:21] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45943, 46035). Elapsed time: 01:21:56
+[2014/09/15 18:25:27] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34690, 34782). Elapsed time: 02:43:02
+[2014/09/15 18:25:40] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38689, 38781). Elapsed time: 02:07:46
+[2014/09/15 18:26:54] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38596, 38688). Elapsed time: 02:10:29
+[2014/09/15 18:27:28] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40642, 40734). Elapsed time: 01:58:18
+[2014/09/15 18:28:19] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35527, 35619). Elapsed time: 02:41:54
+[2014/09/15 18:28:47] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34876, 34968). Elapsed time: 02:45:22
+[2014/09/15 18:29:39] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 37945, 38037). Elapsed time: 02:18:44
+[2014/09/15 18:31:43] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40549, 40641). Elapsed time: 02:02:48
+[2014/09/15 18:32:14] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39061, 39153). Elapsed time: 02:11:49
+[2014/09/15 18:32:38] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38875, 38967). Elapsed time: 02:12:58
+[2014/09/15 18:33:48] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44641, 44733). Elapsed time: 01:38:38
+[2014/09/15 18:34:05] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38782, 38874). Elapsed time: 02:14:55
+[2014/09/15 18:34:17] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 38503, 38595). Elapsed time: 02:18:07
+[2014/09/15 18:34:20] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33388, 33480). Elapsed time: 02:57:56
+[2014/09/15 18:34:58] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42874, 42966). Elapsed time: 01:46:48
+[2014/09/15 18:35:08] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33481, 33573). Elapsed time: 02:58:13
+[2014/09/15 18:35:30] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39619, 39711). Elapsed time: 02:12:50
+[2014/09/15 18:37:16] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41386, 41478). Elapsed time: 01:59:21
+[2014/09/15 18:38:04] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39154, 39246). Elapsed time: 02:17:24
+[2014/09/15 18:38:10] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45850, 45942). Elapsed time: 01:35:15
+[2014/09/15 18:38:11] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44827, 44919). Elapsed time: 01:43:01
+[2014/09/15 18:39:12] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39526, 39618). Elapsed time: 02:17:17
+[2014/09/15 18:39:24] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 33574, 33666). Elapsed time: 03:02:14
+[2014/09/15 18:40:36] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35899, 35991). Elapsed time: 02:52:56
+[2014/09/15 18:42:51] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34969, 35061). Elapsed time: 02:59:26
+[2014/09/15 18:43:01] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39340, 39432). Elapsed time: 02:21:21
+[2014/09/15 18:43:02] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45199, 45291). Elapsed time: 01:44:38
+[2014/09/15 18:43:30] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41107, 41199). Elapsed time: 02:08:05
+[2014/09/15 18:43:35] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 35434, 35526). Elapsed time: 02:58:25
+[2014/09/15 18:44:40] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41200, 41292). Elapsed time: 02:08:00
+[2014/09/15 18:44:50] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43060, 43152). Elapsed time: 01:56:10
+[2014/09/15 18:45:36] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39805, 39897). Elapsed time: 02:21:42
+[2014/09/15 18:45:39] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34783, 34875). Elapsed time: 03:02:59
+[2014/09/15 18:46:38] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39898, 39990). Elapsed time: 02:22:42
+[2014/09/15 18:47:04] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 34504, 34596). Elapsed time: 03:05:09
+[2014/09/15 18:47:18] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43711, 43803). Elapsed time: 01:56:38
+[2014/09/15 18:48:19] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45013, 45105). Elapsed time: 01:52:24
+[2014/09/15 18:48:49] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39433, 39525). Elapsed time: 02:26:55
+[2014/09/15 18:48:51] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42781, 42873). Elapsed time: 02:02:26
+[2014/09/15 18:50:49] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42967, 43059). Elapsed time: 02:02:09
+[2014/09/15 18:50:55] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44920, 45012). Elapsed time: 01:55:30
+[2014/09/15 18:51:20] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43432, 43524). Elapsed time: 02:01:10
+[2014/09/15 18:51:53] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45478, 45570). Elapsed time: 01:50:28
+[2014/09/15 18:52:15] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45571, 45663). Elapsed time: 01:50:35
+[2014/09/15 18:52:40] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43618, 43710). Elapsed time: 02:02:00
+[2014/09/15 18:52:55] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43339, 43431). Elapsed time: 02:03:00
+[2014/09/15 18:52:57] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45664, 45756). Elapsed time: 01:50:47
+[2014/09/15 18:52:57] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43153, 43245). Elapsed time: 02:04:02
+[2014/09/15 18:53:04] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43804, 43896). Elapsed time: 02:01:39
+[2014/09/15 18:54:32] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45292, 45384). Elapsed time: 01:54:08
+[2014/09/15 18:54:40] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43990, 44082). Elapsed time: 02:03:00
+[2014/09/15 18:55:12] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45106, 45198). Elapsed time: 01:58:32
+[2014/09/15 18:56:37] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45757, 45849). Elapsed time: 01:54:12
+[2014/09/15 18:57:51] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 45385, 45477). Elapsed time: 01:57:11
+[2014/09/15 18:58:32] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40828, 40920). Elapsed time: 02:28:07
+[2014/09/15 19:00:21] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41665, 41757). Elapsed time: 02:20:27
+[2014/09/15 19:01:07] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41572, 41664). Elapsed time: 02:21:27
+[2014/09/15 19:01:14] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41014, 41106). Elapsed time: 02:27:19
+[2014/09/15 19:01:25] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44269, 44361). Elapsed time: 02:07:15
+[2014/09/15 19:01:52] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44176, 44268). Elapsed time: 02:08:42
+[2014/09/15 19:03:11] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43246, 43338). Elapsed time: 02:13:46
+[2014/09/15 19:03:18] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43897, 43989). Elapsed time: 02:11:53
+[2014/09/15 19:03:39] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44362, 44454). Elapsed time: 02:09:29
+[2014/09/15 19:03:50] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40363, 40455). Elapsed time: 02:35:40
+[2014/09/15 19:04:18] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39712, 39804). Elapsed time: 02:41:08
+[2014/09/15 19:04:20] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40921, 41013). Elapsed time: 02:32:40
+[2014/09/15 19:04:24] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41293, 41385). Elapsed time: 02:26:29
+[2014/09/15 19:05:38] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44455, 44547). Elapsed time: 02:10:58
+[2014/09/15 19:06:50] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42595, 42687). Elapsed time: 02:21:41
+[2014/09/15 19:08:34] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 43525, 43617). Elapsed time: 02:17:53
+[2014/09/15 19:09:23] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42037, 42129). Elapsed time: 02:26:14
+[2014/09/15 19:10:27] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42316, 42408). Elapsed time: 02:26:18
+[2014/09/15 19:11:22] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44083, 44175). Elapsed time: 02:18:57
+[2014/09/15 19:11:55] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40270, 40362). Elapsed time: 02:45:45
+[2014/09/15 19:12:18] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42409, 42501). Elapsed time: 02:27:53
+[2014/09/15 19:12:32] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41758, 41850). Elapsed time: 02:32:07
+[2014/09/15 19:15:24] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41851, 41943). Elapsed time: 02:34:00
+[2014/09/15 19:17:05] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40735, 40827). Elapsed time: 02:47:40
+[2014/09/15 19:17:12] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40177, 40269). Elapsed time: 02:51:02
+[2014/09/15 19:19:39] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 40084, 40176). Elapsed time: 02:53:29
+[2014/09/15 19:21:02] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 39991, 40083). Elapsed time: 02:56:22
+[2014/09/15 19:25:17] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42502, 42594). Elapsed time: 02:40:22
+[2014/09/15 19:26:05] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 44548, 44640). Elapsed time: 02:31:25
+[2014/09/15 19:26:47] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 41944, 42036). Elapsed time: 02:44:07
+[2014/09/15 19:32:01] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42130, 42222). Elapsed time: 02:48:51
+[2014/09/15 19:38:14] Finish running sift_encode_fc_sge(vsd2014, keyframe-5, covdet, hessian, 256, 80, 0, 42223, 42315). Elapsed time: 02:54:19

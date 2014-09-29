@@ -53,12 +53,12 @@ ker = calker_build_kerdb(feature_ext, ker_type, feat_dim, cross, suffix);
 ker.events = events;
 ker.dev_pat_list = {'devel2011', 'test2011'};
 ker.dev_pat = 'devel2013-new';
-%ker.test_pat_list = {'test2013'};
-%ker.test_pat = 'test2013-new';
+ker.test_pat_list = {'test2013'};
+ker.test_pat = 'test2013-new';
 %ker.dev_pat_list = {'devel2011', 'test2011', 'test2012', 'test2013'};
 %ker.dev_pat = 'devel2014-new';
-ker.test_pat_list = {'test2014'};
-ker.test_pat = 'test2014-new';
+%ker.test_pat_list = {'test2014'};
+%ker.test_pat = 'test2014-new';
 
 calker_exp_dir = sprintf('%s/%s/experiments/%s-calker/%s%s', ker.proj_dir, prms.proj_name, prms.exp_name, ker.feat, ker.suffix);
 ker.log_dir = fullfile(calker_exp_dir, 'log');

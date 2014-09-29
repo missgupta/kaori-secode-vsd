@@ -147,3 +147,13 @@
 [2014/09/15 11:22:55] Start running calker_load_traindata(vsd2014, mediaeval-vsd-2014.devel2014-new)
 [2014/09/15 11:33:58] Finish running calker_load_traindata(vsd2014, mediaeval-vsd-2014.devel2013-new, 00:11:02). Elapsed time: 
 [2014/09/15 11:42:03] Finish running calker_load_traindata(vsd2014, mediaeval-vsd-2014.devel2014-new, 00:19:07). Elapsed time: 
+[2014/09/15 20:24:23] Start running calker_load_traindata(vsd2014, mediaeval-vsd-2014.devel2013-new)
+[2014/09/15 20:24:44] Finish running calker_load_traindata(vsd2014, mediaeval-vsd-2014.devel2013-new, 00:00:20). Elapsed time: 
+[2014/09/15 20:25:20] Start running calker_load_traindata(vsd2014, mediaeval-vsd-2014.devel2014-new)
+[2014/09/15 20:26:02] Finish running calker_load_traindata(vsd2014, mediaeval-vsd-2014.devel2014-new, 00:00:42). Elapsed time: 
+[2014/09/15 20:30:39] Start running calker_load_traindata(vsd2014, mediaeval-vsd-2014.devel2013-new)
+[2014/09/15 20:30:58] Finish running calker_load_traindata(vsd2014, mediaeval-vsd-2014.devel2013-new, 00:00:19). Elapsed time: 
+[2014/09/15 20:49:27] Start running calker_load_traindata(vsd2014, mediaeval-vsd-2014.devel2013-new)
+[2014/09/15 20:51:17] Start running calker_load_traindata(vsd2014, mediaeval-vsd-2014.devel2014-new)
+[2014/09/15 21:01:10] Finish running calker_load_traindata(vsd2014, mediaeval-vsd-2014.devel2013-new, 00:11:42). Elapsed time: 
+[2014/09/15 21:08:40] Finish running calker_load_traindata(vsd2014, mediaeval-vsd-2014.devel2014-new, 00:17:22). Elapsed time: 
