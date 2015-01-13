@@ -10,6 +10,10 @@ do_clustering_gmm('/net/per610a/export/das11f/plsang/vsd2013', 'colordescriptor.
 do_clustering_gmm('/net/per610a/export/das11f/plsang/vsd2014', 'idensetraj.mbh', 128)
 do_clustering_gmm('/net/per610a/export/das11f/plsang/vsd2014', 'idensetraj.hoghof', 128)
 
+do_clustering_kmeans('/net/per610a/export/das11f/plsang', 'mfcc.rastamat');
+do_clustering_kmeans('/net/per610a/export/das11f/plsang', 'idensetraj.hoghof');
+do_clustering_kmeans('/net/per610a/export/das11f/plsang', 'idensetraj.mbh');
+
 tic; matlabpool open; densetraj_select_features('mbh'); matlabpool close; do_clustering_gmm('/net/per610a/export/das11f/plsang/vsd2014', 'idensetraj.mbh', 128); toc;
 tic; matlabpool open; densetraj_select_features('hoghof'); matlabpool close; do_clustering_gmm('/net/per610a/export/das11f/plsang/vsd2014', 'idensetraj.hoghof', 128); toc;
 
