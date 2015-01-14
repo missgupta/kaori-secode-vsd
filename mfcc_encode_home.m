@@ -9,7 +9,9 @@ function mfcc_encode_home( algo, start_seg, end_seg )
 		algo = 'rastamat';
 	end
 	
-	codebook_gmm_size = 256;
+	enc_type = 'bow'; % 'fc';
+	clustering_algo = 'kmeans'; % 'gmm', 'kmeans'
+	codebook_size = 1000;
 	feat_dim = 39;
 	
 	org_proj_dir = '/net/per610a/export/das11f/ledduy/mediaeval-vsd-2014';
@@ -18,7 +20,7 @@ function mfcc_encode_home( algo, start_seg, end_seg )
 	fea_dir = sprintf('%s/feature/%s', proj_dir, shot_ann);
 	raw_fea_dir = sprintf('%s/feature/%s/mfcc.rastamat.raw', proj_dir, shot_ann) ;
 	
-    feature_ext_fc = sprintf('mfcc.%s.cb%d.fc', algo, codebook_gmm_size);
+    feature_ext_fc = sprintf('mfcc.%s.cb%d.%s', algo, codebook_size, enc_type);
 
 	shots = [];
 	shot_infos = [];
@@ -55,17 +57,21 @@ function mfcc_encode_home( algo, start_seg, end_seg )
 		raw_feats.(video_id) = feats;
 	end
 	
-    output_dir_fc = sprintf('%s/%s/%s', fea_dir, feature_ext_fc);
-    if ~exist(output_dir_fc, 'file'),
-        mkdir(output_dir_fc);
+    output_dir = sprintf('%s/%s/%s', fea_dir, feature_ext_fc);
+    if ~exist(output_dir, 'file'),
+        mkdir(output_dir);
     end
     
 	% loading gmm codebook
 	
-	codebook_gmm_file = sprintf('%s/feature/bow.codebook.devel/mfcc.%s/data/codebook.gmm.%d.%d.mat', proj_dir, algo, codebook_gmm_size, feat_dim);
-    codebook_gmm_ = load(codebook_gmm_file, 'codebook');
-    codebook_gmm = codebook_gmm_.codebook;
-		
+	codebook_file = sprintf('%s/feature/bow.codebook.devel/mfcc.%s/data/codebook.%s.%d.%d.mat', proj_dir, algo, clustering_algo, codebook_size, feat_dim);
+    codebook_ = load(codebook_file, 'codebook');
+    codebook = codebook_.codebook;
+	
+	if strcmp(enc_type, 'bow'),
+		kdtree = vl_kdtreebuild(codebook);
+	end
+	
  	if ~exist('start_seg', 'var') || start_seg < 1,
         start_seg = 1;
     end
@@ -88,8 +94,8 @@ function mfcc_encode_home( algo, start_seg, end_seg )
 		start_idx = floor(100 * start_frame / 25) + 1;	%	100 = 1000ms/10ms
 		end_idx = floor(100 * end_frame / 25);			%
 		
-		%output_fc_file = [output_dir_fc, '/', video_id, '/', shot_id, '.mat'];
-		output_file = sprintf('%s/%s/%s/%s.mat', output_dir_fc, pat_id, video_id, shot_id);
+		%output_fc_file = [output_dir, '/', video_id, '/', shot_id, '.mat'];
+		output_file = sprintf('%s/%s/%s/%s.mat', output_dir, pat_id, video_id, shot_id);
 		
 		if exist(output_file, 'file'),
             fprintf('File [%s] already exist. Skipped!!\n', output_file);
@@ -107,7 +113,12 @@ function mfcc_encode_home( algo, start_seg, end_seg )
 		if isempty(feat),
 			continue;
 		else			    
-			code = fc_encode(feat, codebook_gmm, []);
+			if strcmp(enc_type, 'fc'),
+				code = fc_encode(feat, codebook, []);
+			elseif strcmp(enc_type, 'bow'),
+				code = kcb_encode(feat, codebook, kdtree);
+			end
+			
 		end
 		
 		par_save(output_file, code, 1); 
