@@ -27,4 +27,8 @@ addpath('/net/per900a/raid0/plsang/tools/gmm-fisher-kaori/matlab');
 % gist descriptor
 addpath('/net/per900a/raid0/plsang/software/gistdescriptor');
 
-%featpipem_addpaths
+%deepcaffe
+
+addpath('/net/per610a/export/das11f/plsang/deepcaffe/caffe-rc/matlab/caffe');
+
+
