@@ -28,6 +28,28 @@ Learning
 calker_main('vsd2014', 'colordescriptor.6.sift.cb256.fisher.pca', 1, 1)
 calker_main('vsd2014', 'idensetraj.hoghofmbh.cb256.fc.pca', 1, 1)12:09 PM 9/5/2014
 
+% Jan, 2015
+calker_main('vsd2014', 'mfcc.rastamat.cb1000.bow', 1, 1, 'dim', 1000, 'ker', 'echi2')
+calker_main('vsd2014', 'idensetraj.hoghofmbh.cb1000.bow', 1, 1, 'dim', 2000, 'ker', 'echi2')
+
+-- mbh
+cd /net/per610a/export/das11f/plsang/codes/kaori-secode-vsd/learning-mbh
+calker_main('vsd2014', 'idensetraj.hoghofmbh.cb1000.bow', 1, 1, 'dim', 1000, 'ker', 'echi2', 'suffix', 'mbh')
+
+-- hoghof
+cd /net/per610a/export/das11f/plsang/codes/kaori-secode-vsd/learning-hoghof
+calker_main('vsd2014', 'idensetraj.hoghofmbh.cb1000.bow', 1, 1, 'dim', 1000, 'ker', 'echi2', 'suffix', 'hoghof')
+
+% Jan 28, 2015 DeepVSD
+calker_main('vsd2014', 'deepcaffe.fc7.sum', 1, 1, 'dim', 4096, 'ker', 'echi2')
+calker_main('vsd2014', 'deepcaffe.fc7.max', 1, 1, 'dim', 4096, 'ker', 'echi2')
+
+calker_main('vsd2014', 'deepcaffe.fc6.sum', 1, 1, 'dim', 4096, 'ker', 'echi2')
+calker_main('vsd2014', 'deepcaffe.fc6.max', 1, 1, 'dim', 4096, 'ker', 'echi2')
+
+calker_main('vsd2014', 'deepcaffe.full.sum', 1, 1, 'dim', 1000, 'ker', 'echi2')
+calker_main('vsd2014', 'deepcaffe.full.max', 1, 1, 'dim', 1000, 'ker', 'echi2')
+
 %% DEVEL 2013 - TEST 2014
 ker.dev_pat_list = {'devel2011', 'test2011'};
 ker.dev_pat = 'devel2013-new';
@@ -43,6 +65,11 @@ gen_sge_code('sift_encode_fc_sge', 'vsd2014 keyframe-5 covdet hessian %d %d', 46
 MFCC:
 
 cm_gen_local_scripts('mfcc_encode_home', '''rastamat'', %d, %d', 41206, 20)
+
+DEEPCAFFE
+gen_sge_code('deepcaffe_extract_feature', 'vsd2014 keyframe-5 fc7 %d %d', 46058, 500, 2)
+gen_sge_code('deepcaffe_extract_feature', 'vsd2014 keyframe-5 fc6 %d %d', 46058, 500, 1)
+
 
 
 +++ late fusion
